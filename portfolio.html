@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header-nav">
+        <div class="container">
+            <nav>
             <a href="" class="logo">Web<span class="logo-hed">Studio</span></a>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="./index.html" class="link-nav">Студия </a></li>
                 <li><a href="" class="link-nav current">Портфолио </a></li>
                 <li><a href="" class="link-nav">Контакты </a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="contacts-list">
             <li><a href="mailto:info@devstudio.com" class="link-header">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="link-header">+38 096 111 11 11</a></li>
         </ul>
-    </header>
+        </div>
+        </header>
     <main>
         <section>
             <h1 class="visually-hidden">Наши работы</h1>
@@ -94,7 +97,8 @@
         </section>
     </main>
     <footer>
-        <a href="" class="logo">Web<span class="logo-fot">Studio</span></a>
+        <div class="container">
+            <a href="" class="logo">Web<span class="logo-fot">Studio</span></a>
         <address class="fot-add">
             <ul>
                 <li><a href="https://goo.gl/maps/Xmp9YLtaLfdtmfkQ8" class="add-maps">г. Киев, пр-т Леси Украинки, 26</a>
@@ -103,7 +107,7 @@
                 <li><a href="tel:+380991111111" class="add-link">+38 099 111 11 11</a></li>
             </ul>
         </address>
-    
-    </footer>
+        </div>
+        </footer>
 </body>
 </html>
