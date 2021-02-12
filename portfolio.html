@@ -11,25 +11,26 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header-nav">
+    <header class="header">
         <div class="container">
-            <nav>
+            <nav class="header-nav">
             <a href="" class="logo">Web<span class="logo-hed">Studio</span></a>
             <ul class="nav-list">
                 <li><a href="./index.html" class="link-nav">Студия </a></li>
                 <li><a href="" class="link-nav current">Портфолио </a></li>
                 <li><a href="" class="link-nav">Контакты </a></li>
             </ul>
-        </nav>
-        <ul class="contacts-list">
+         <ul class="contacts-list">
             <li><a href="mailto:info@devstudio.com" class="link-header">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="link-header">+38 096 111 11 11</a></li>
         </ul>
+        </nav>
         </div>
         </header>
     <main>
         <section>
-            <h1 class="visually-hidden">Наши работы</h1>
+            <div class="container">
+                <h1 class="visually-hidden">Наши работы</h1>
             <ul class="list-button">
                 <li>
                     <button class="button">Все</button>
@@ -47,7 +48,9 @@
                     <button class="button">Маркетинг</button>
                 </li>
             </ul>
-            <ul class="work">
+            </div>
+            <div class="container">
+                <ul class="work-list">
                 <li>
                     <img src="images/portfolio1.jpg" alt="">
                     <h2 class="work-head">Технокряк</h2>
@@ -94,6 +97,8 @@
                     <p class="work-text">Приложение</p>
                 </li>
             </ul>
+            </div>
+            
         </section>
     </main>
     <footer>

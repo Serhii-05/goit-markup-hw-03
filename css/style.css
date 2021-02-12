@@ -1,3 +1,12 @@
+/*переменные*/
+:root {
+  --link-button-blue-color: #2196f3;
+  --moz-background-hero-foter-color: #2f303a;
+  --heading-text-color: #212121;
+  --text-color: #757575;
+  --button-background-color: #f5f4fa;
+}
+
 /*общие стили*/
 body {
   font-family: "Roboto", sans-serif;
@@ -21,15 +30,7 @@ a {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-/*переменные*/
-:root {
-  --link-button-blue-color: #2196f3;
-  --moz-background-hero-foter-color: #2f303a;
-  --heading-text-color: #212121;
-  --text-color: #757575;
-  --button-background-color: #f5f4fa;
+  border: 1px solid red;
 }
 
 /*header*/
@@ -67,22 +68,46 @@ a {
 .link-header {
   color: var(--text-color);
   outline: none;
-}
-
-.link-header:hover,
-.link-header:focus {
-  color: var(--link-button-blue-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
+.link-header:hover,
+.link-header:focus {
+  color: var(--link-button-blue-color);
+}
+
+.header-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 25px 15px 15px;
+}
+
+.nav-list li {
+  margin-left: 50px;
+}
+
+.contacts-list {
+  margin-left: 331px;
+}
+
+.contacts-list li:not(:last-child) {
+  margin-right: 50px;
+}
+
 /*studio-main*/
 
-.hero {
+.hero .container {
   background-color: var(--moz-background-hero-foter-color);
+  height: 600px;
 }
 
 .hero h1 {
