@@ -30,7 +30,6 @@ a {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 /*header*/
@@ -135,6 +134,7 @@ a {
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.06em;
+  text-align: center;
 
   border-radius: 4%;
   padding: 10px 32px;
@@ -160,6 +160,9 @@ a {
 
 .features-list {
   display: flex;
+  justify-content: space-between;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features .list-head {
@@ -178,6 +181,11 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+
+.direction .container {
+  margin-bottom: 94px;
 }
 
 .direction-head {
@@ -187,6 +195,15 @@ a {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+
+.direction-list {
+  display: flex;
+}
+
+.team .container {
+  background-color: var(--button-background-color);
 }
 
 .team-head {
@@ -196,6 +213,14 @@ a {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+
+  padding-top: 94px;
+}
+
+.team-list {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 
 .team-name {
@@ -254,8 +279,9 @@ a {
 
 /*footer*/
 
-footer {
+.footer {
   background-color: var(--moz-background-hero-foter-color);
+  padding-top: 60px;
 }
 
 .logo-fot {
@@ -269,10 +295,17 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.address-list {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
 .add-maps {
   color: #ffffff;
+  padding-bottom: 9px;
 }
 
 .add-link {
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 9px;
 }
