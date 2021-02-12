@@ -118,6 +118,13 @@ a {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .hero-link {
@@ -128,6 +135,14 @@ a {
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.06em;
+
+  border-radius: 4%;
+  padding: 10px 32px;
+  margin-top: 30px;
+  margin-left: 484px;
+  margin-right: 484px;
+  display: flex;
+  justify-content: center;
 }
 
 .visually-hidden {
@@ -141,6 +156,10 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.features-list {
+  display: flex;
 }
 
 .features .list-head {
