@@ -163,6 +163,13 @@ a {
   justify-content: space-between;
   padding-top: 94px;
   padding-bottom: 94px;
+
+  text-align: left;
+}
+
+.features-list :not(:last-child) {
+  margin-right: 30px;
+  max-width: 270px;
 }
 
 .features .list-head {
