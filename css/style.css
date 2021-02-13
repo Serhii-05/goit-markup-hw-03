@@ -87,7 +87,7 @@ a {
 .header-nav {
   justify-content: space-between;
   align-items: center;
-  padding: 24px 25px 15px 15px;
+  padding: 24px 15px 25px 15px;
 }
 
 .nav-list li {
@@ -200,6 +200,7 @@ a {
 
 .direction-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .team .container {
@@ -219,6 +220,7 @@ a {
 
 .team-list {
   display: flex;
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 94px;
 }
@@ -252,6 +254,8 @@ a {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+
+  padding: 6px 22px;
 }
 
 .button:hover,
@@ -260,12 +264,38 @@ a {
   color: #ffffff;
 }
 
+.list-button {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 94px;
+}
+
+.list-button li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.work-list {
+  margin-top: 50px;
+  margin-bottom: 90px;
+
+  flex-basis: calc(100% / 3);
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.work-list li {
+  margin-top: 30px;
+}
+
 .work-head {
   color: var(--heading-text-color);
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -275,6 +305,11 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.work-container {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 /*footer*/
