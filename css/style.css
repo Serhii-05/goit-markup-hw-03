@@ -203,6 +203,8 @@ a {
   line-height: 1.16;
   letter-spacing: 0.03em;
   padding-bottom: 50px;
+
+  text-align: center;
 }
 
 .direction-list {
@@ -223,6 +225,7 @@ a {
   letter-spacing: 0.03em;
 
   padding-top: 94px;
+  text-align: center;
 }
 
 .team-list {
@@ -230,6 +233,14 @@ a {
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 94px;
+}
+
+.team-container {
+  background-color: #ffffff;
+  text-align: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -247,6 +258,8 @@ a {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
+  margin-top: 10px;
 }
 
 /*portfolio*/
