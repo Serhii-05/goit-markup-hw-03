@@ -59,9 +59,6 @@ a {
   color: var(--link-button-blue-color);
 }
 
-.nav-list {
-}
-
 .link-nav {
   color: var(--heading-text-color);
   font-weight: 500;
