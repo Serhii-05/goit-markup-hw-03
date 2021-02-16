@@ -126,9 +126,10 @@ a {
 
 .hero .container {
   text-align: center;
+  align-items: center;
 }
 
-.hero h1 {
+.heading-hero {
   color: #ffffff;
 
   font-weight: 900;
