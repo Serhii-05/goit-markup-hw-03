@@ -380,6 +380,10 @@ a {
   margin-bottom: 9px;
 }
 
+.address-list > li:last-child {
+  margin-bottom: 0;
+}
+
 .add-maps {
   color: #ffffff;
 }
