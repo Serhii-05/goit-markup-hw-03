@@ -36,6 +36,7 @@ a {
 
 .header {
   border-bottom: 1px solid #ececec;
+  min-height: 80px;
 }
 
 .logo-container {
@@ -102,11 +103,6 @@ a {
 .nav-list,
 .contacts-list {
   display: flex;
-}
-
-.header-nav {
-  align-items: center;
-  min-height: 80px;
 }
 
 .nav-list li {
