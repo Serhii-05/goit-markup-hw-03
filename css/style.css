@@ -170,7 +170,7 @@ a {
   overflow: hidden;
 }
 
-.features {
+.features .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -183,7 +183,6 @@ a {
 }
 
 .features-list :not(:last-child) {
-  margin-right: 30px;
   max-width: 270px;
 }
 
