@@ -233,6 +233,7 @@ a {
 .team {
   background-color: var(--button-background-color);
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .team-head {
@@ -244,7 +245,7 @@ a {
   letter-spacing: 0.03em;
 
   margin-bottom: 50px;
-  padding-top: 94px;
+
   text-align: center;
 }
 
