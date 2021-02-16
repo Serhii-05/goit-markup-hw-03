@@ -122,7 +122,7 @@ a {
 
 /*studio-main*/
 
-.hero .container {
+.hero {
   background-color: var(--moz-background-hero-foter-color);
   height: 600px;
 }
@@ -229,9 +229,12 @@ a {
   justify-content: space-between;
 }
 
-.team .container {
+.team {
   background-color: var(--button-background-color);
   padding-bottom: 94px;
+}
+
+.team .container {
 }
 
 .team-head {
