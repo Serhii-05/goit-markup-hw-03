@@ -41,6 +41,7 @@ a {
 .logo-container {
   padding-top: 24px;
   padding-bottom: 25px;
+  padding-right: 93px;
 }
 
 .logo {
@@ -93,6 +94,10 @@ a {
   color: var(--link-button-blue-color);
 }
 
+.header .container {
+  display: flex;
+}
+
 .header-nav,
 .nav-list,
 .contacts-list {
@@ -100,7 +105,6 @@ a {
 }
 
 .header-nav {
-  justify-content: space-between;
   align-items: center;
   min-height: 80px;
 }
@@ -109,8 +113,12 @@ a {
   margin-left: 50px;
 }
 
+.nav-list li:first-child {
+  margin-left: 0;
+}
+
 .contacts-list {
-  margin-left: 331px;
+  margin-left: auto;
 }
 
 .contacts-list li:not(:last-child) {
