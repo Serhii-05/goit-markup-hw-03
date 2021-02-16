@@ -355,8 +355,7 @@ a {
 }
 
 /*footer*/
-
-.footer {
+...... .footer {
   background-color: var(--moz-background-hero-foter-color);
   padding-top: 60px;
   padding-bottom: 60px;
