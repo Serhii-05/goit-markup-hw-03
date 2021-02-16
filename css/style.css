@@ -124,6 +124,10 @@ a {
   height: 600px;
 }
 
+.hero .container {
+  text-align: center;
+}
+
 .hero h1 {
   color: #ffffff;
 
@@ -132,13 +136,6 @@ a {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
-
-  margin-bottom: 30px;
-
-  padding-top: 200px;
-  padding-left: 250px;
-  padding-right: 250px;
 }
 
 .hero-link {
