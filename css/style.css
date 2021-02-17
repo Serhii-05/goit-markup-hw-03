@@ -5,6 +5,11 @@
   --heading-text-color: #212121;
   --text-color: #757575;
   --button-background-color: #f5f4fa;
+  --logo-color: #000000;
+  --border-header: #ececec;
+  --text-fone: #ffffff;
+  --add-link-color: rgba(255, 255, 255, 0.6);
+  --border-card-list: #eeeeee;
 }
 
 /*общие стили*/
@@ -35,7 +40,7 @@ a {
 /*header*/
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--border-header);
   min-height: 80px;
 }
 
@@ -54,7 +59,7 @@ a {
 }
 
 .logo-hed {
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .link-nav.current {
@@ -136,7 +141,7 @@ a {
 }
 
 .heading-hero {
-  color: #ffffff;
+  color: var(--text-fone);
 
   font-weight: 900;
   font-size: 44px;
@@ -147,7 +152,7 @@ a {
 }
 
 .hero-botton {
-  color: #ffffff;
+  color: var(--text-fone);
   background-color: var(--link-button-blue-color);
 
   font-weight: 700;
@@ -259,7 +264,7 @@ a {
 }
 
 .team-container {
-  background-color: #ffffff;
+  background-color: var(--text-fone);
   text-align: center;
 
   padding-top: 30px;
@@ -300,7 +305,7 @@ a {
   border-radius: 4px;
   border: none;
   color: var(--heading-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--button-background-color);
   cursor: pointer;
 
   font-weight: 500;
@@ -314,7 +319,7 @@ a {
 .button:hover,
 .button:focus {
   background-color: var(--link-button-blue-color);
-  color: #ffffff;
+  color: var(--text-fone);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -366,9 +371,9 @@ a {
 
 .work-container {
   padding: 20px 24px;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid var(--border-card-list);
+  border-left: 1px solid var(--border-card-list);
+  border-bottom: 1px solid var(--border-card-list);
 }
 
 /*footer*/
@@ -379,7 +384,7 @@ a {
 }
 
 .logo-fot {
-  color: #ffffff;
+  color: var(--text-fone);
 }
 
 .logo-type {
@@ -406,11 +411,11 @@ a {
 }
 
 .add-maps {
-  color: #ffffff;
+  color: var(--text-fone);
 }
 
 .add-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--add-link-color);
 }
 
 .add-link:hover,
